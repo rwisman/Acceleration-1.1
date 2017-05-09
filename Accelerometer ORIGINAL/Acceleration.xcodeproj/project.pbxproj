@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		79006A90120610600099DF38 /* SizingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79006A8F120610600099DF38 /* SizingView.xib */; };
+		79006C05120676230099DF38 /* ZPlotController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79006C04120676230099DF38 /* ZPlotController.m */; };
+		79006C3712067A9E0099DF38 /* PlotController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79006C3612067A9E0099DF38 /* PlotController.m */; };
+		79006C6612067DDA0099DF38 /* XPlotController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79006C6512067DDA0099DF38 /* XPlotController.m */; };
+		79006C99120686540099DF38 /* YPlotController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79006C98120686540099DF38 /* YPlotController.m */; };
+		7913646512326DE4000B8CEB /* ScatterPlot.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7913646412326DE4000B8CEB /* ScatterPlot.xib */; };
+		793879EF12333D7400F4C985 /* samplesPerSecond.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 793879EE12333D7400F4C985 /* samplesPerSecond.PNG */; };
+		7938E10911E592CA00E596A4 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7938E10811E592CA00E596A4 /* Settings.bundle */; };
+		7938E1F511E6304E00E596A4 /* AccelerometerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7938E1F411E6304E00E596A4 /* AccelerometerController.m */; };
+		7939A6BF122BE430000D7C9D /* clock-32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7939A6BE122BE430000D7C9D /* clock-32x32.png */; };
+		7939A6D2122BF97A000D7C9D /* clock-22x22.png in Resources */ = {isa = PBXBuildFile; fileRef = 7939A6D1122BF97A000D7C9D /* clock-22x22.png */; };
+		7939A70A122E0383000D7C9D /* SoundEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 7939A709122E0383000D7C9D /* SoundEffect.m */; };
+		7939A710122E05B2000D7C9D /* calibrateSound.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7939A70F122E05B2000D7C9D /* calibrateSound.caf */; };
+		7939A712122E05C2000D7C9D /* startSound.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7939A711122E05C2000D7C9D /* startSound.caf */; };
+		7939A720122E067C000D7C9D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7939A71F122E067C000D7C9D /* AudioToolbox.framework */; };
+		7939A754122E0805000D7C9D /* stopSound.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7939A753122E0805000D7C9D /* stopSound.caf */; };
+		7939A812123089AF000D7C9D /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 7939A810123089AF000D7C9D /* start.png */; };
+		7939A813123089AF000D7C9D /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 7939A811123089AF000D7C9D /* stop.png */; };
+		7939A8671230A3F4000D7C9D /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 7939A8661230A3F4000D7C9D /* email.png */; };
+		796AD7CD120A44350057026A /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 796AD7CC120A44350057026A /* blue.png */; };
+		796AD7CF120A44EC0057026A /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 796AD7CE120A44EC0057026A /* red.png */; };
+		7977E0ED11E56665005DF3C4 /* AccelerometerData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7977E0EC11E56665005DF3C4 /* AccelerometerData.m */; };
+		7977E11411E5687A005DF3C4 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7977E11311E5687A005DF3C4 /* MessageUI.framework */; };
+		7977E13011E56A91005DF3C4 /* Accelerometer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7977E12F11E56A91005DF3C4 /* Accelerometer.xib */; };
+		79D43F66121A387100B82E5A /* 63-runner.png in Resources */ = {isa = PBXBuildFile; fileRef = 79D43F65121A387100B82E5A /* 63-runner.png */; };
+		79D44072121B199A00B82E5A /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 79D4406E121B199A00B82E5A /* Icon-Small-50.png */; };
+		79D44073121B199A00B82E5A /* 57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 79D4406F121B199A00B82E5A /* 57x57.png */; };
+		79D44074121B199A00B82E5A /* 72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 79D44070121B199A00B82E5A /* 72x72.png */; };
+		79D44075121B199A00B82E5A /* 512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = 79D44071121B199A00B82E5A /* 512x512.png */; };
+		79FA931812109B1300D911BD /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 79FA931712109B1300D911BD /* green.png */; };
+		BC8166CE1100DD00006D898E /* 16-line-chart.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8166CC1100DD00006D898E /* 16-line-chart.png */; };
+		BC9B81DA0FB893F70035D8DA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9B81D90FB893F70035D8DA /* QuartzCore.framework */; };
+		F29B4A0C12257C2600B744D4 /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F29B497E12257A0400B744D4 /* libCorePlot-CocoaTouch.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F29B497D12257A0400B744D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79C277B111E41EA5004565B8 /* CorePlot-CocoaTouch.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC9B83470FB8A0A40035D8DA;
+			remoteInfo = "CorePlot-CocoaTouch";
+		};
+		F29B4A0912257BD300B744D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79C277B111E41EA5004565B8 /* CorePlot-CocoaTouch.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BC9B83460FB8A0A40035D8DA;
+			remoteInfo = "CorePlot-CocoaTouch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Acceleration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Acceleration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79006A8F120610600099DF38 /* SizingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SizingView.xib; sourceTree = "<group>"; };
+		79006C04120676230099DF38 /* ZPlotController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPlotController.m; sourceTree = "<group>"; };
+		79006C06120676320099DF38 /* ZPlotController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPlotController.h; sourceTree = "<group>"; };
+		79006C3212067A5C0099DF38 /* PlotController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlotController.h; sourceTree = "<group>"; };
+		79006C3612067A9E0099DF38 /* PlotController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlotController.m; sourceTree = "<group>"; };
+		79006C6412067DCC0099DF38 /* XPlotController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPlotController.h; sourceTree = "<group>"; };
+		79006C6512067DDA0099DF38 /* XPlotController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPlotController.m; sourceTree = "<group>"; };
+		79006C97120686400099DF38 /* YPlotController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPlotController.h; sourceTree = "<group>"; };
+		79006C98120686540099DF38 /* YPlotController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPlotController.m; sourceTree = "<group>"; };
+		7913646412326DE4000B8CEB /* ScatterPlot.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScatterPlot.xib; sourceTree = "<group>"; };
+		793879EE12333D7400F4C985 /* samplesPerSecond.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = samplesPerSecond.PNG; path = GlyphishIcons/samplesPerSecond.PNG; sourceTree = "<group>"; };
+		7938E10811E592CA00E596A4 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		7938E1EF11E62CFA00E596A4 /* AccelerometerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerometerController.h; sourceTree = "<group>"; };
+		7938E1F411E6304E00E596A4 /* AccelerometerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerometerController.m; sourceTree = "<group>"; };
+		7939A6BE122BE430000D7C9D /* clock-32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "clock-32x32.png"; path = "GlyphishIcons/clock-32x32.png"; sourceTree = "<group>"; };
+		7939A6D1122BF97A000D7C9D /* clock-22x22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "clock-22x22.png"; path = "GlyphishIcons/clock-22x22.png"; sourceTree = "<group>"; };
+		7939A708122E0383000D7C9D /* SoundEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundEffect.h; sourceTree = "<group>"; };
+		7939A709122E0383000D7C9D /* SoundEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundEffect.m; sourceTree = "<group>"; };
+		7939A70F122E05B2000D7C9D /* calibrateSound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = calibrateSound.caf; path = Sounds/calibrateSound.caf; sourceTree = "<group>"; };
+		7939A711122E05C2000D7C9D /* startSound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = startSound.caf; path = Sounds/startSound.caf; sourceTree = "<group>"; };
+		7939A71F122E067C000D7C9D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7939A753122E0805000D7C9D /* stopSound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = stopSound.caf; path = Sounds/stopSound.caf; sourceTree = "<group>"; };
+		7939A810123089AF000D7C9D /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = start.png; path = GlyphishIcons/start.png; sourceTree = "<group>"; };
+		7939A811123089AF000D7C9D /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stop.png; path = GlyphishIcons/stop.png; sourceTree = "<group>"; };
+		7939A8661230A3F4000D7C9D /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = email.png; path = GlyphishIcons/email.png; sourceTree = "<group>"; };
+		796AD7CC120A44350057026A /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blue.png; path = GlyphishIcons/blue.png; sourceTree = "<group>"; };
+		796AD7CE120A44EC0057026A /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red.png; path = GlyphishIcons/red.png; sourceTree = "<group>"; };
+		7973EB411207A7E100EA07CA /* AccelerometerPlot_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerometerPlot_Prefix.pch; sourceTree = "<group>"; };
+		7977E0EB11E56665005DF3C4 /* AccelerometerData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerometerData.h; sourceTree = "<group>"; };
+		7977E0EC11E56665005DF3C4 /* AccelerometerData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerometerData.m; sourceTree = "<group>"; };
+		7977E11311E5687A005DF3C4 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		7977E12F11E56A91005DF3C4 /* Accelerometer.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Accelerometer.xib; sourceTree = "<group>"; };
+		79C277B111E41EA5004565B8 /* CorePlot-CocoaTouch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "CorePlot-CocoaTouch.xcodeproj"; path = "core-plot/framework/CorePlot-CocoaTouch.xcodeproj"; sourceTree = "<group>"; };
+		79D43F65121A387100B82E5A /* 63-runner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "63-runner.png"; path = "GlyphishIcons/63-runner.png"; sourceTree = "<group>"; };
+		79D4406E121B199A00B82E5A /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "GlyphishIcons/Icon-Small-50.png"; sourceTree = "<group>"; };
+		79D4406F121B199A00B82E5A /* 57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 57x57.png; path = GlyphishIcons/57x57.png; sourceTree = "<group>"; };
+		79D44070121B199A00B82E5A /* 72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 72x72.png; path = GlyphishIcons/72x72.png; sourceTree = "<group>"; };
+		79D44071121B199A00B82E5A /* 512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 512x512.png; path = GlyphishIcons/512x512.png; sourceTree = "<group>"; };
+		79FA931712109B1300D911BD /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green.png; path = GlyphishIcons/green.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC8166CC1100DD00006D898E /* 16-line-chart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "16-line-chart.png"; path = "GlyphishIcons/16-line-chart.png"; sourceTree = "<group>"; };
+		BC9B81D90FB893F70035D8DA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29B4A0C12257C2600B744D4 /* libCorePlot-CocoaTouch.a in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+				BC9B81DA0FB893F70035D8DA /* QuartzCore.framework in Frameworks */,
+				7977E11411E5687A005DF3C4 /* MessageUI.framework in Frameworks */,
+				7939A720122E067C000D7C9D /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7939A708122E0383000D7C9D /* SoundEffect.h */,
+				7939A709122E0383000D7C9D /* SoundEffect.m */,
+				79006C6512067DDA0099DF38 /* XPlotController.m */,
+				79006C6412067DCC0099DF38 /* XPlotController.h */,
+				7938E1F411E6304E00E596A4 /* AccelerometerController.m */,
+				7938E1EF11E62CFA00E596A4 /* AccelerometerController.h */,
+				7977E0EB11E56665005DF3C4 /* AccelerometerData.h */,
+				7977E0EC11E56665005DF3C4 /* AccelerometerData.m */,
+				1D3623240D0F684500981E51 /* AppDelegate.h */,
+				1D3623250D0F684500981E51 /* AppDelegate.m */,
+				79006C04120676230099DF38 /* ZPlotController.m */,
+				79006C06120676320099DF38 /* ZPlotController.h */,
+				79006C3212067A5C0099DF38 /* PlotController.h */,
+				79006C3612067A9E0099DF38 /* PlotController.m */,
+				79006C97120686400099DF38 /* YPlotController.h */,
+				79006C98120686540099DF38 /* YPlotController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Acceleration.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CPTestApp-iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				79C277B111E41EA5004565B8 /* CorePlot-CocoaTouch.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "CPTestApp-iPhone";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				7973EB411207A7E100EA07CA /* AccelerometerPlot_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				793879EE12333D7400F4C985 /* samplesPerSecond.PNG */,
+				7913646412326DE4000B8CEB /* ScatterPlot.xib */,
+				7939A8661230A3F4000D7C9D /* email.png */,
+				7939A810123089AF000D7C9D /* start.png */,
+				7939A811123089AF000D7C9D /* stop.png */,
+				7939A753122E0805000D7C9D /* stopSound.caf */,
+				7939A711122E05C2000D7C9D /* startSound.caf */,
+				7939A70F122E05B2000D7C9D /* calibrateSound.caf */,
+				7939A6D1122BF97A000D7C9D /* clock-22x22.png */,
+				7939A6BE122BE430000D7C9D /* clock-32x32.png */,
+				79D4406E121B199A00B82E5A /* Icon-Small-50.png */,
+				79D4406F121B199A00B82E5A /* 57x57.png */,
+				79D44070121B199A00B82E5A /* 72x72.png */,
+				79D44071121B199A00B82E5A /* 512x512.png */,
+				79D43F65121A387100B82E5A /* 63-runner.png */,
+				79FA931712109B1300D911BD /* green.png */,
+				796AD7CE120A44EC0057026A /* red.png */,
+				796AD7CC120A44350057026A /* blue.png */,
+				7977E12F11E56A91005DF3C4 /* Accelerometer.xib */,
+				BC8166CC1100DD00006D898E /* 16-line-chart.png */,
+				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				79006A8F120610600099DF38 /* SizingView.xib */,
+				7938E10811E592CA00E596A4 /* Settings.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC9B81D90FB893F70035D8DA /* QuartzCore.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+				7977E11311E5687A005DF3C4 /* MessageUI.framework */,
+				7939A71F122E067C000D7C9D /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F29B497812257A0400B744D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F29B497E12257A0400B744D4 /* libCorePlot-CocoaTouch.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* AccelerometerPlot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "AccelerometerPlot" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F29B4A0A12257BD300B744D4 /* PBXTargetDependency */,
+			);
+			name = AccelerometerPlot;
+			productName = "CPTestApp-iPhone";
+			productReference = 1D6058910D05DD3D006BFB54 /* Acceleration.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Acceleration" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CPTestApp-iPhone */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F29B497812257A0400B744D4 /* Products */;
+					ProjectRef = 79C277B111E41EA5004565B8 /* CorePlot-CocoaTouch.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* AccelerometerPlot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F29B497E12257A0400B744D4 /* libCorePlot-CocoaTouch.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libCorePlot-CocoaTouch.a";
+			remoteRef = F29B497D12257A0400B744D4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
+				BC8166CE1100DD00006D898E /* 16-line-chart.png in Resources */,
+				7977E13011E56A91005DF3C4 /* Accelerometer.xib in Resources */,
+				7938E10911E592CA00E596A4 /* Settings.bundle in Resources */,
+				79006A90120610600099DF38 /* SizingView.xib in Resources */,
+				796AD7CD120A44350057026A /* blue.png in Resources */,
+				796AD7CF120A44EC0057026A /* red.png in Resources */,
+				79FA931812109B1300D911BD /* green.png in Resources */,
+				79D43F66121A387100B82E5A /* 63-runner.png in Resources */,
+				79D44072121B199A00B82E5A /* Icon-Small-50.png in Resources */,
+				79D44073121B199A00B82E5A /* 57x57.png in Resources */,
+				79D44074121B199A00B82E5A /* 72x72.png in Resources */,
+				79D44075121B199A00B82E5A /* 512x512.png in Resources */,
+				7939A6BF122BE430000D7C9D /* clock-32x32.png in Resources */,
+				7939A6D2122BF97A000D7C9D /* clock-22x22.png in Resources */,
+				7939A710122E05B2000D7C9D /* calibrateSound.caf in Resources */,
+				7939A712122E05C2000D7C9D /* startSound.caf in Resources */,
+				7939A754122E0805000D7C9D /* stopSound.caf in Resources */,
+				7939A812123089AF000D7C9D /* start.png in Resources */,
+				7939A813123089AF000D7C9D /* stop.png in Resources */,
+				7939A8671230A3F4000D7C9D /* email.png in Resources */,
+				7913646512326DE4000B8CEB /* ScatterPlot.xib in Resources */,
+				793879EF12333D7400F4C985 /* samplesPerSecond.PNG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
+				7977E0ED11E56665005DF3C4 /* AccelerometerData.m in Sources */,
+				7938E1F511E6304E00E596A4 /* AccelerometerController.m in Sources */,
+				79006C05120676230099DF38 /* ZPlotController.m in Sources */,
+				79006C3712067A9E0099DF38 /* PlotController.m in Sources */,
+				79006C6612067DDA0099DF38 /* XPlotController.m in Sources */,
+				79006C99120686540099DF38 /* YPlotController.m in Sources */,
+				7939A70A122E0383000D7C9D /* SoundEffect.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F29B4A0A12257BD300B744D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CorePlot-CocoaTouch";
+			targetProxy = F29B4A0912257BD300B744D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AccelerometerPlot_Prefix.pch;
+				HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/core-plot/framework\"/**";
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = Acceleration;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				SYMROOT = build;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "i386 armv6 armv7";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AccelerometerPlot_Prefix.pch;
+				HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/core-plot/framework\"/**";
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = Acceleration;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/core-plot/framework\"/**";
+				INFOPLIST_PREPROCESS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				SYMROOT = build;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD_32_BIT) i386";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/core-plot/framework\"/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F29B48EE122574A100B744D4 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/core-plot/framework\"/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		F29B48EF122574A100B744D4 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AccelerometerPlot_Prefix.pch;
+				HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/core-plot/framework\"/**";
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = Acceleration;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "AccelerometerPlot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				F29B48EF122574A100B744D4 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Acceleration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				F29B48EE122574A100B744D4 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

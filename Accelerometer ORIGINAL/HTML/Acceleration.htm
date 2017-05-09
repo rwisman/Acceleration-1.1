@@ -1,0 +1,138 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="Author" content="Raymond F. Wisman">
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<link REL="stylesheet" href="basic.css" type="text/css">
+<title>Acceleration</title>
+</head>
+
+<body text="#000000" bgcolor="#FFFFFF" link="#0000FF" vlink="#551A8B" 
+alink="#FF0000">
+
+	<p><font size="5"><b>Mobile Science</b></font></p>
+	<p><font size="5"> 
+	<img border="0" src="Accelerometer.png" align="left"></font><b><font size="5">cceleration</font></b> 
+	by Ray Wisman and Kyle Forinash, Indiana University SE. </p>
+	<p>&nbsp;</p>
+	<blockquote>
+		<p>Acknowledgements:</p>
+		<blockquote>
+			<p>Tab bar icons by Joseph Wain 
+	@ glyphish.com.<br>Core-Plot for graphs, http://code.google.com/p/core-plot.<br>
+			Clock image by 
+			http://commons.wikimedia.org/wiki/File:Crystal_Clear_app_clock.png<br>
+			Colored LED Rectangles by http://www.clker.com<br>
+			Sounds from http://developer.apple.com/iphone/library/samplecode/BubbleLevel/Introduction/Intro.html
+			<br>
+&nbsp;</p>
+		</blockquote>
+	</blockquote>
+
+<h2>Description</h2>
+<blockquote>
+	<p>
+	<img border="0" src="Accelerometer.png" align="left"></p>
+	<p>cceleration records, graphs and emails the iPod/iPhone/iPad accelerometer 
+	measurements.</p>
+	<p>&nbsp;</p>
+	<p>The application is useful for measuring acceleration, velocity and 
+	distance resulting from motion along a single axis such as by an 
+	accelerating vehicle.</p>
+	<p>Up to 120K unfiltered measurements can be recorded at rates of 1 to 100 
+	samples per second. The measurements are graphed as recorded and can also be 
+	emailed. </p>
+	<table border="0" cellspacing="0">
+		<tr>
+			<td>
+	<img border="0" src="photo1.PNG" style="border-style: groove; border-width: 1px" hspace="30"></td>
+			<td><b>Controls</b><blockquote>
+				<p><b>Start</b> to record accelerometer 
+			measurements, marked by a distinct sound.</p>
+				<p><b>Stop</b> to stop recording, marked by a distinct sound.</p>
+				<p><b>EMAIL</b><i> </i>the recorded measurements.</p>
+				<p><b>Samples/second</b> rate from 1 to 100 set using the slider bar.</p>
+				<p><b>Calibrate </b>toggles zeroing of <i>X, Y </i>and <i>Z</i> 
+				axis values to cancel effects due to gravity or other global acceleration of 
+	the device. With calibration ON, the initial one second of measurements are 
+	used to determine the average acceleration measure for each axis; for zeroing, the 
+	average is subtracted from each subsequent measure. A distinct sound marks 
+			the end of calibration and the start of data collection.</p>
+				<p><b>X</b>, <b>Y</b> and <b>Z</b> tab buttons display the graph of the 
+	acceleration, velocity and distance measurements for that axis.</p>
+				<p><b>Time</b> slider scrolls through the <i>X, Y </i>and <i>Z</i> axis 
+	values measured at the time selected. <i>X, Y </i>and <i>Z</i> axis values are displayed in real time by three 
+	progress bars and graphed.</p>
+			</blockquote>
+			</td>
+		</tr>
+	</table>
+	<p>
+	&nbsp;</p>
+</blockquote>
+<p><b>Example</b></p>
+	<blockquote>
+		<p>
+		<img border="0" src="Accelerometer.png" align="left">cceleration 
+		example is dropping an iPod from one meter. </p>
+		<p>
+		<img border="0" src="photo2.PNG" width="320" height="480" align="right" style="border-style: groove; border-width: 1px"></p>
+		<p>&nbsp;</p>
+		<p>The iPod was dropped with the +Z axis face-up.</p>
+		<p>The screen shot shows the Z axis acceleration, 
+		velocity and distance.</p>
+		<p>The accelerometer measured about one g during the free-fall, spiking 
+		as free-fall abruptly ended when the iPod stopped falling.</p>
+		<p>From the graph, free-fall began at about 0.4 seconds and ended at 
+		about 0.85 seconds, lasting about 0.45 seconds, accurate for a one meter 
+		fall. </p>
+		<p>As a visual check of accuracy, the distance graph (red) intersects 
+		the acceleration graph (blue) at the time of impact. That point is when 
+		measured acceleration is about one g and the distance is one meter, the 
+		expected result.</p>
+		<p>More precise times can be determined two ways: by moving the <i>Time
+		</i>slider on the main screen to observe when the Z axis acceleration 
+		changed significantly or by emailing the raw acceleration data and 
+		examining in a spreadsheet.</p>
+		<p>Unfiltered accelerometer measurements are used to calculate Velocity 
+		and Distance as follows:</p>
+		<blockquote>
+			<p>Velocity<sub>n</sub> = Velocity<sub>n-1 </sub>+ Accelerometer<sub>n</sub> 
+			* 9.8 * Sample rate</p>
+			<p>Distance<sub>n</sub> = Distance<sub>n-1 </sub>+ Velocity<sub>n</sub> 
+			* Sample rate + 0.5 * Accelerometer<sub>n</sub> * 9.8 * Sample rate<sup>2</sup></p>
+		</blockquote>
+	</blockquote>
+<p><b>Graphing</b></p>
+	<blockquote>
+		<p>
+		<img border="0" src="Accelerometer.png" align="left"></p>
+		<blockquote>
+			<p>cceleration, velocity and distance along each axis of motion can be graphed 
+	individually or in any combination.</blockquote>
+		<p>
+		<img border="0" src="photo4.PNG" width="320" height="480" style="border-style: groove; border-width: 1px" align="right"><img border="0" src="photo3.PNG" width="320" height="480" style="border-style: groove; border-width: 1px" align="right"><img border="0" src="photo2.PNG" width="320" height="480" style="border-style: groove; border-width: 1px" align="right"></p>
+	</blockquote>
+<p>
+</p>
+<blockquote>
+	<p>&nbsp;<p>Pressing the <i>Acceleration</i>, <i>Velocity</i> 
+	or <i>Distance</i> buttons will hide/show 
+	the respective graphs.<p><i>Acceleration</i>,<i> Velocity </i>and <i>
+	Distance </i>can be graphed together or individually.<p>The vertical axis of the graph is 
+	scaled to fit the maximum and minimum value of any axis displayed.
+
+	<p><i>Time</i> is displayed horizontally.<p>Sliders set the <i>Start </i>and<i> 
+	End</i> of the time interval displayed.<p>A maximum of 250 data points 
+	between the <i>Start</i> and <i>End</i> points are graphed to maintain 
+	responsiveness.</blockquote>
+<p><b>Preferences</b><blockquote>
+	<p>Email addressee and attachment file name preferences are in <i>Settings</i>.
+
+</body>
+
+</html>

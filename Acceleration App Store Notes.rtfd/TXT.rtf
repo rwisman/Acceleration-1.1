@@ -1,0 +1,196 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf320
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Verdana;\f2\fnil\fcharset0 Menlo-Regular;
+}
+{\colortbl;\red255\green255\blue255;\red108\green108\blue108;\red0\green0\blue0;\red24\green65\blue153;
+\red33\green77\blue22;\red59\green10\blue6;\red83\green83\blue83;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f0\b\fs24 \cf2 From: 
+\b0 \cf3 iPhone University Program <iphoneup@iu.edu>\
+
+\b \cf2 Date: 
+\b0 \cf3 August 28, 2010 11:00:13 AM EDT\
+
+\b \cf2 To: 
+\b0 \cf3 "Wisman, Raymond F." <rwisman@ius.edu>\
+
+\b \cf2 Subject: \cf3 Re: Acceleration\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\b0 \cf3 \
+\pard\pardeftab720\ql\qnatural
+\cf3 Great. I made one minor change (turned on the "Generate Debug Symbols" GCC option) so you'd have a dSYM file with which to decode any crash reports (see\'a0{\field{\*\fldinst{HYPERLINK "http://developer.apple.com/iphone/library/technotes/tn2008/tn2151.html"}}{\fldrslt \cf4 \ul \ulc4 Technical Note TN2151: Understanding and Analyzing iPhone OS Application Crash Reports}}). Attached is the archive of the app store distribution build I made. You should unzip this B632CA51-B2AA-4D\'85C3C1.zip file, then move the resulting\'a0B632CA51-B2AA-4D\'85C3C1 folder\'a0to your ~/Library/MobileDevice/Archived Applications/ folder. Then it should appear in your Xcode Organizer.\
+\
+I'm not sure if you'd be sent the crash reports directly, or if I'd need to get them for you, but we'll find out.\
+\
+Also, you mentioned that you saw that the app was waiting for upload. Do you mean in iTunes Connect? Is it still giving you those messages about the team agent needing to agree to the new agreement?\
+\
+And finally, I don't think I've ever been to New Albany, but I'll let you know if I am!\
+\
+Thanks!\
+\
+--\'a0\
+John Anthony Grigutis\
+Systems Analyst/Programmer/Mac Specialist\
+Indiana University : UITS : Communication & Support : SSL\
+\
+\
+{{\NeXTGraphic B632CA51-B2AA-4DA7-B0F4-276E8ECAC3C1.zip \width640 \height640
+}¬}\
+\
+\
+On Aug 28, 2010, at 9:52 AM, Raymond Wisman wrote:\
+\pard\pardeftab720\ql\qnatural
+\cf4 Hi John\
+\
+I've taken your advice and added versions to the Info.plist\
+\
+Thanks for fixing the screen shots, I forgot that detail for the HTML.\
+\
+I saw that the app was waiting for uploading. The version you updated is fine.\
+\
+Again, many, many thanks. If you get down New Albany way, I owe you a dinner at one of the local dives.\
+\
+Thanks again\
+\
+Ray Wisman\
+\
+\
+\
+On Aug 27, 2010, at 9:36 PM, iPhone University Program wrote:\
+\pard\pardeftab720\ql\qnatural
+\cf5 No, I haven't uploaded the binary yet, so there's still time. Did you catch the message I just sent about the CFBundle\uc0\u8721  keys?\
+\
+--\'a0\
+John Anthony Grigutis\
+Systems Analyst/Programmer/Mac Specialist\
+Indiana University : UITS : Communication & Support : SSL\
+\
+On Aug 27, 2010, at 9:30 PM, Raymond Wisman wrote:\
+\pard\pardeftab720\ql\qnatural
+\cf6 Hi John\
+\
+I sent this earlier but needed to add one line to the code, if you have already uploaded the binary its not a big deal, a cosmetic change.\
+If you have not uploaded then please use the subversion host or the zip at:\'a0{\field{\*\fldinst{HYPERLINK "https://www.slashtmp.iu.edu/public/download.php?FILE=rwisman/99736HDyZxN"}}{\fldrslt 
+\f1 \cf4 \ul \ulc4 rwisman/99736HDyZxN}}\
+\
+Below is the earlier message repeated.\
+\
+Thanks again\
+Ray Wisman\
+\
+________________________________\
+\
+Sorry for the extra work. I appreciate your help and careful examination, I was a little sloppy and ignorant on multiple fronts. Several of the issues I'd thought I'd corrected but did not test them on another machine.\
+\
+The warning is gone:\'a0
+\f2\fs22 Accelerometer/ScatterPlot.xib:-1:0 The 'view' outlet of 'File's Owner' is connected to 'Layer Hosting View' but 'view' is no longer defined on CPTestAppScatterPlotController.
+\f0\fs24 \
+\pard\pardeftab720\ql\qnatural
+
+\f2\fs22 \cf6 \
+\pard\pardeftab720\ql\qnatural
+
+\f0\fs24 \cf6 The code is accessible at two locations:\
+\
+1)\'a0{\field{\*\fldinst{HYPERLINK "https://www.slashtmp.iu.edu/public/download.php?FILE=rwisman/97604tQ10be"}}{\fldrslt 
+\f1 \cf4 \ul \ulc4 rwisman/97604tQ10be}}\
+\
+2) A subversion host with admin rights:\
+				{\field{\*\fldinst{HYPERLINK "http://rwisman.unfuddle.com/svn/rwisman_acceleration/"}}{\fldrslt 
+\f1\fs20 \cf4 \ul \ulc4 http://rwisman.unfuddle.com/svn/rwisman_acceleration/}}\
+\pard\pardeftab720\ql\qnatural
+
+\f1\fs20 \cf7 			username:\'a0
+\f0\fs24 \cf6 johngrigutis	
+\f1\fs20 \cf7 password:\'a0
+\f0\fs24 \cf6 johngrigutis\
+\
+The only changes from what you created for the App Store listing are:\
+\
+Application Name*:	Mobile Science -\'a0Acceleration\
+Keywords*:	Wisman,Forinash,acceleration,velocity,distance,motion,physics\
+iPhone and iPod touch Screenshots*:	(1 required, up to 4 additional are optional) \'a0 \'a0					In sub-directory HTML as photo1.png - photo4.png\
+iPad Screenshots(* required if app runs on iPad):	(1 required, up to 4 additional are optional)			In sub-directory HTML as iPad.png\
+\
+\
+Again, many thanks.\
+\
+Ray Wisman\
+\
+On Aug 26, 2010, at 10:07 AM, iPhone University Program wrote:\
+Hi Ray (sorry for the delay),\
+\
+I haven't heard back from Apple, so I'm going ahead with submitting the App myself.\'a0I had to make some modifications\'a0to get it to compile on my machine and\'a0in order for the App Store to accept it. Here is what I changed:\
+\
+\pard\tx220\tx720\pardeftab720\ql\qnatural
+\ls1\ilvl0\cf6 {\listtext	\'95	}Set the Project Format to Xcode 3.2-compatible.\
+{\listtext	\'95	}Change the bundle identifier to edu.ius.nsci.rwisman.$\{PRODUCT_NAME:rfc1034identifier\}\
+{\listtext	\'95	}Added a Distribution configuration for building a binary suitable for submission to the App Store.\
+{\listtext	\'95	}Changed Base SDK\'a0for all configurations to iPhone Device 4.0 (required for App Store submission).\
+{\listtext	\'95	}Enabled the Validate Built Product option for the Release and Distribution configurations.\
+{\listtext	\'95	}Set the Any iPhone OS Device Identity to iPhone Developer for the Debug and Release configurations and iPhone Distribution for the Distribution configuration.\
+{\listtext	\'95	}Set the Product Name setting to Acceleration.\
+{\listtext	\'95	}Fixed the CorePlot-CocoaTouch.xcodeproj path and set the path type to relative to enclosing group.\
+{\listtext	\'95	}Fixed the Header Search Paths to\'a0"$\{PROJECT_DIR\}/core-plot/framework" recursive.\
+{\listtext	\'95	}Added CorePlot-CocoaTouch as a direct dependent of the AccelerometerPlot target.\
+{\listtext	\'95	}Added libCorePlot-CocoaTouch.a to the Link Binary With Libraries build phase of the\'a0AccelerometerPlot target.\
+{\listtext	\'95	}Fixed icon requirements.\
+\pard\pardeftab720\ql\qnatural
+\cf6 \
+I was left with one compiler warning though:\
+\
+\pard\pardeftab720\ql\qnatural
+
+\f2\fs22 \cf6 Accelerometer/ScatterPlot.xib:-1:0 The 'view' outlet of 'File's Owner' is connected to 'Layer Hosting View' but 'view' is no longer defined on CPTestAppScatterPlotController.\
+\
+\pard\pardeftab720\ql\qnatural
+
+\f0\fs24 \cf6 This is a xib from the CPTestApp. Does it need to be in your project if the owner isn't?\
+\
+I've put it\'a0{\field{\*\fldinst{HYPERLINK "https://www.slashtmp.iu.edu/public/download.php?FILE=grigutis/51908czKK13"}}{\fldrslt \cf4 \ul \ulc4 back up on slashtmp}}\'a0for you to try out and test. I might have mentioned this before, but I'd strongly suggest using CVS or subversion for collaboration and source control. It makes it much easier to make and find changes like this.\
+\
+For the App Store listing, I'll assume the following. Let me know if you'd like to change anything:\
+\
+Application Name*:	Acceleration\
+SKU:	\
+Bundle Identifier:	edu.ius.nsci.rwisman.Acceleration\
+Availability Date:	As soon as approved\
+App Store\'a0Worldwide:	All territories\
+Version Number*:	1.0\
+Description*:	(taking the description from\'a0{\field{\*\fldinst{HYPERLINK "http://homepages.ius.edu/rwisman/Ubiquious%20Learning/html/acceleration.htm"}}{\fldrslt \cf4 \ul \ulc4 your website}})\
+Primary* and Secondary Category:	Education\
+Subcategory:	\
+Keywords*:	Wisman,Forinash,IUS,Core Plot,Glyphish,accelerometer,velocity,distance,motion,axis\
+Copyright*:	The Trustees of\'a0Indiana University\
+Contact Email Address*:	{\field{\*\fldinst{HYPERLINK "mailto:rwisman@ius.edu"}}{\fldrslt \cf4 \ul \ulc4 rwisman@ius.edu}}\
+Support URL*:	{\field{\*\fldinst{HYPERLINK "http://homepages.ius.edu/rwisman/"}}{\fldrslt \cf4 \ul \ulc4 http://homepages.ius.edu/rwisman/}}\
+App URL:	{\field{\*\fldinst{HYPERLINK "http://homepages.ius.edu/rwisman/Ubiquious%20Learning/html/acceleration.htm"}}{\fldrslt \cf4 \ul \ulc4 http://homepages.ius.edu/rwisman/Ubiquious%20Learning/html/acceleration.htm}}\
+Review Notes:	\
+Rating:	4+ (No objectionable content)\
+EULA:	\
+Application Icon:	512x512.png\
+iPhone and iPod touch Screenshots*:	(1 required, up to 4 additional are optional)\
+iPad Screenshots(* required if app runs on iPad):	(1 required, up to 4 additional are optional)\
+\
+*Required\
+\
+For the screenshots, I can take the iPhone and iPod touch screenshots from your webpage (could you tell me which ones you'd want to use?), but I'd still need at least one iPad screenshot.\
+\
+Give me a call if it'd be easier to talk over the phone: (812) 856-5436. I'll be out from ~11:20AM\'881:00PM.\
+\
+--\'a0\
+John Anthony Grigutis\
+Systems Analyst/Programmer/Mac Specialist\
+Indiana University : UITS : Communication & Support : SSL\
+\
+\
+\pard\pardeftab720\ql\qnatural
+\cf5 \
+\pard\pardeftab720\ql\qnatural
+\cf4 \
+\pard\pardeftab720\ql\qnatural
+\cf3 \
+}

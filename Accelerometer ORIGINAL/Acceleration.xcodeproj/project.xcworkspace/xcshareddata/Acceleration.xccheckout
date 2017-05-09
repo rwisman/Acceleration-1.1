@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>45E2E22A-F2F0-49A5-939C-08E42B1F8F40</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Acceleration</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>60FB00432871EFBFAD1326313F82EE25ED4D576E</key>
+		<string>https://github.iu.edu/rwisman/Workshop.git</string>
+		<key>AC21E2D20B32BDA63F27E853D05AC85376DC2C81</key>
+		<string>https://github.com/rwisman/Temperature.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Acceleration 1.1/Accelerometer/Acceleration.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>60FB00432871EFBFAD1326313F82EE25ED4D576E</key>
+		<string>../../../../../..</string>
+		<key>AC21E2D20B32BDA63F27E853D05AC85376DC2C81</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rwisman/Temperature.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AC21E2D20B32BDA63F27E853D05AC85376DC2C81</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>60FB00432871EFBFAD1326313F82EE25ED4D576E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>..</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AC21E2D20B32BDA63F27E853D05AC85376DC2C81</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Mobile%20Science</string>
+		</dict>
+	</array>
+</dict>
+</plist>

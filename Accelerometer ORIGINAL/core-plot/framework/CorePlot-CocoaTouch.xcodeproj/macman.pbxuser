@@ -1,0 +1,38 @@
+// !$*UTF8*$!
+{
+	0760D0F311BD272D00A3C4BD /* Build SDK */ = {
+		activeExec = 0;
+	};
+	183EDFDC13EF462700EF3468 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	183EDFDD13EF462700EF3468 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeTarget = BC9B83460FB8A0A40035D8DA /* CorePlot-CocoaTouch */;
+		codeSenseManager = 183EDFDD13EF462700EF3468 /* Code sense */;
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 334448106;
+			PBXWorkspaceStateSaveDate = 334448106;
+		};
+		sourceControlManager = 183EDFDC13EF462700EF3468 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	BC9B83460FB8A0A40035D8DA /* CorePlot-CocoaTouch */ = {
+		activeExec = 0;
+	};
+	C3566B8010EED04900FB3866 /* Documentation */ = {
+		activeExec = 0;
+	};
+}

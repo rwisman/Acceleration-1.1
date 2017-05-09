@@ -1,0 +1,88 @@
+// !$*UTF8*$!
+{
+	070CF7AE0F3CA7AB0001FFF4 /* CorePlot.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 826}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 694}";
+		};
+	};
+	0730F5FF109492D800E95162 /* UnitTests */ = {
+		activeExec = 0;
+	};
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeTarget = 8DC2EF4F0486A6940098B216 /* CorePlot */;
+		codeSenseManager = 79384A0611DBCE3E00C78A2C /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 299641468;
+			PBXWorkspaceStateSaveDate = 299641468;
+		};
+		perUserProjectItems = {
+			79384A1111DBCE4E00C78A2C /* PBXTextBookmark */ = 79384A1111DBCE4E00C78A2C /* PBXTextBookmark */;
+			79384AB611DC2A9300C78A2C /* PBXTextBookmark */ = 79384AB611DC2A9300C78A2C /* PBXTextBookmark */;
+		};
+		sourceControlManager = 79384A0511DBCE3E00C78A2C /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	79384A0511DBCE3E00C78A2C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	79384A0611DBCE3E00C78A2C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	79384A1111DBCE4E00C78A2C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 070CF7AE0F3CA7AB0001FFF4 /* CorePlot.h */;
+		name = "CorePlot.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 694;
+		vrLoc = 0;
+	};
+	79384AB611DC2A9300C78A2C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 070CF7AE0F3CA7AB0001FFF4 /* CorePlot.h */;
+		name = "CorePlot.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 694;
+		vrLoc = 0;
+	};
+	8DC2EF4F0486A6940098B216 /* CorePlot */ = {
+		activeExec = 0;
+	};
+	9021E49E0FC5C9DC00443472 /* Documentation */ = {
+		activeExec = 0;
+	};
+}
